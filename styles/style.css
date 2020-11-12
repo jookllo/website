@@ -1,0 +1,341 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+.navbar-logo{
+  text-align: center;
+}
+.navbar-content .navbar-menu {
+  overflow: hidden;
+  background-color:rgb(82, 61, 61);
+  opacity: 0.85;
+}
+  
+.navbar-menu li{
+  float: left;
+  display: block;
+  color:rgb(10, 10, 10);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+
+}
+.navbar-menu li a{
+  color: #000 !important;
+}
+.navbar-menu li a:hover {
+  /* background-color: #ddd; */
+  color:#E3E5E5;
+}
+  
+.navbar-menu li a.active {
+  /* background-color: whitesmoke; */
+  color: black;
+}
+.navbar-menu .form-inline{
+  float:right; 
+  padding-top:10px;
+  padding-right: 100px;
+}
+@media screen and (max-width: 600px) {
+  .navbar-menu a:not(:first-child) {display: none;}
+  .navbar-menu a.icon {
+    float: right;
+    display: block;
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .navbar-menu.responsive {position: relative;}
+  .navbar-menu.responsive {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.navbar-menu.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+  }
+}
+
+.container-content{
+  background-image:url("../images/consultations.png");
+  margin:0 auto;
+  position: relative;
+  height: 480px;
+  padding-top: 120px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.container-content h2{
+    font-family: 'Playfair Display',serif ;
+    color: #faa5a5;
+    font-weight:normal;
+    font-size: 36px;
+    margin-top: 0px;
+    text-align: center;
+}
+.container-content h1{
+    font-family: 'Portano Sans', sans-serif;
+    color: #f3b6b6;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.container-content a{
+  text-align: center;
+  width: 145px;
+  height: 30px;
+  margin-left:700px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(63, 46, 46);
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Playfair Display',serif;
+  display: block;
+  line-height: 30px;
+  margin-top: 20px;
+  border:3px solid whitesmoke;
+}
+
+.mainPage {
+  /* background: rgb(223, 217, 217); */
+  width: 100%;
+  float: center;
+}
+.main-container{
+  height: 600px;
+  position: relative;
+  background-color: #424346;
+  padding:100px 200px 80px 200px;
+  margin: 0 auto;
+}
+.text-content {
+  /* background: rgb(153, 153, 147); */
+  width: 100%;
+  height:100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
+}
+.text-content h1{
+  color:rgb(247, 244, 239);
+  text-align: center;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.text-content .para1,ul,li{
+  color: white;
+  align-content: center;
+    
+}
+.mid-container{
+  background-color:#E3E5E5;
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.09);
+  padding:50px 100px 50px 100px;
+}
+.section-title h2{
+  font-size: 2rem;
+  color: tomato;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-title h4 , p{
+  text-align: center;
+  color: #000;
+}
+.row{
+  display: grid; 
+  grid-template-columns: 320px 320px 320px;
+  grid-template-rows: 400px;
+  grid-gap: 30px;
+  justify-content:space-evenly;
+  padding: 70px;
+  line-height: 25px;
+  /* background-color: white; */
+  padding: 5px;
+  
+    
+}
+.row h2{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.row .col-1{
+  background-image: url('../images/training1.png');
+}
+.row .col-2{
+  background-image: url('../images/tailorsewing1.png');
+}
+
+.row .col-3{
+  background-image: url('../images/consultations1.png');
+}
+
+.jumbotron{
+  background-color:#776857;
+  height: 180px;
+  position: relative;
+  padding-top: 15px;
+  
+}
+.container3 .display-3{
+  text-align: center;
+  color: #2e2929;
+  
+}
+.footer {
+  background:#333131;
+  height: 400px;
+  position: relative;
+}
+.footer .footer-bottom{
+background-color: black;
+color: cornsilk;
+position: absolute;
+width: 100%;
+text-align: center;
+padding-top: 20px;
+bottom: 0px;
+left: 0px;
+}
+.footer .footer-content{
+  /* border: 1px solid red; */
+  height: 400px;
+  display: flex;
+}
+.footer  .footer-content .footer-section{
+  flex: 1;
+  /* border: 1px solid wheat; */
+  padding: 25px;
+}
+.footer .footer-content h2,
+.footer .footer-content h1{
+  color:blanchedalmond;
+}
+.footer .footer-content .about h1 span{
+  color: rgb(206, 82, 82);
+}
+.footer .footer-content .about .contact span{
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+.footer .footer-content .about .socials a{
+  /* border: 1px solid rosybrown; */
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 30px;
+}
+.footer .footer-content .about .socials a:hover{
+  /* border:5px solid whitesmoke; */
+  color:rgb(31, 134, 148) ;
+  transition: all .3s;
+}
+.footer .footer-section h2{
+  text-align: center;
+}
+.footer #contact-form form{
+  text-align:center;
+}
+
+
+@media (max-width:600px){
+  .navbar-menu{display: block;}
+  .main-container{display: block;}
+  .mid-container{display: block;}
+  .footer-content{display: block;}
+  .row{display: block;}
+  .text-content{display: block;}
+  .container3{display: block;}
+  #link{display: block;}
+}
+
+#images {
+  padding-top: 8px;
+  padding-bottom: 5px;
+  background-color:rgb(109, 122, 136);
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding:10px;
+  padding-left: 50px;
+  border: 5px solid rgb(36, 37, 31);
+  margin: 10px;
+}
+.column:hover {
+  border: 5px solid rgb(25, 34, 29);
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+  
+
+
+  

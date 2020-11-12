@@ -1,0 +1,141 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>our team</title>
+        <script src="https://kit.fontawesome.com/73b94f4a27.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    </head>
+    <body>
+      <nav class="navbar-header">
+        <div class="navbar-content">
+            <div class="navbar-logo">
+                <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sanas-serif;">Mavazi Couture</h1>
+            </div>
+            
+            <div class="navbar-menu">
+                <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a class="active" href="index.html.">About Us</a></li>
+                <li><a class="active" href="index.html">Services</a></li>
+                <li><a class="active" href="team.html">Our Team</a></li>
+                <li><a class="active" href="gallery.html">Gallery/Portfolio</a></li>
+                <li><a class="active" href="#contact">Contact Us</a></li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control " type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success " type="submit">Search</button>
+                  </form>
+            </div>
+        </div>
+    </nav>
+    
+     <!-- ======= Our Team Section ======= -->
+    
+    <section class="team">
+    
+        <div class="section-title">
+          <h2>Our Team</h2>
+          <p>Mavazi Couture consists of a proffessional and talented designers with good reputaion in teh fashion industry.</p>
+        </div>
+    
+        <div class="team">
+          <div class="column1">
+            <div class="card1">
+              <img src="images/ruto.jpg"  style="width:100%">
+              <div class="container">
+                <h2>Collins Ruto</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="column1">
+            <div class="card">
+              <img src="images/njau.jpg"  style="width:100%">
+              <div class="container">
+                <h2>John Njau</h2>
+                <p class="title">Art Director</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="column1">
+            <div class="card">
+              <img src="images/vallary.jpg"  style="width:100%">
+              <div class="container">
+                <h2>Vallary Owino</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button1">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <div class="footer" id="contact">
+      <div class="footer-content">
+        <div class="footer-section about" data-aos="zoon-in-left" data-aos-duration="850">
+          <h1 class="logo-text"><span>MAVAZI</span>COUTURE</h1>
+          <p>
+            What a story! Ten years doing  business in Africa 9/9/2011 marked the beginning,
+            the birthing, the building of Mavazi Couture Fashion House.
+          </p>
+    
+          <div class="contact">
+            <span><i class="fa fa-phone"></i> &nbsp; +2547123456789</span>
+            <span><i class="fa fa-envelope"></i> &nbsp; mavazicouture@gmail.com</span>
+            
+          </div>
+          <div class="socials">
+            <a href="#"><i class="fab fa-facebook" style="color: blue;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color:rgb(206, 82, 82);"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color: rgb(0, 195, 255);"></i></a>
+            <a href="#"><i class="fab fa-youtube" style="color:red;"></i></a>
+          </div>
+      </div>
+        <div class="footer-section" id="link">
+          <h2>About Us</h2>
+         
+          <p>
+          Our intention is to provide the client with a personalized boutique experience when purchasing either an investment piece to their current wardrobe or an overall fashion upgrade designed conveniently to the client's budget. 
+          This provides the client with a unique handcrafted item designed exclusively to that individual's body measurements and personality.
+          </p>
+        </div>
+        <div class="footer-section "id="contact-form">
+          <h2>Contact Us</h2>
+          <form action="index.html" method="post">
+            <input type="email" name="email" class="text-input contact-input" placeholder="your email address..."></input><br><br>
+            <textarea name="message" class="text-input contact-input" placeholder="your message"></textarea><br>
+            <button type="submit" class="btn btn-big">
+              <i class="fas far-envelope"></i>
+               send
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+          @copyright 2020 MAVAZI COUTURE
+      </div>
+    </div>
+    
+    <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+    </body>
+    </html>
